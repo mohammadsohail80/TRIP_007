@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [1DETTRIP]">
+  <listeners>
+    <listener class-name="com.trip.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="TRIPApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.trip.testCases.TC_001_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.trip.testCases.TC_001_LoginTest -->
+    </classes>
+  </test> <!-- TRIPApp Test(failed) -->
+</suite> <!-- Failed suite [1DETTRIP] -->

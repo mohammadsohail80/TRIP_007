@@ -1,0 +1,9 @@
+com\trip\testCases\TC_001_LoginTest.class
+com\trip\testCases\TC_004_From_Naveen.class
+com\trip\Utilities\ReadConfig.class
+com\trip\Utilities\Xls_Reader.class
+com\trip\Utilities\Reporting.class
+com\trip\testCases\Baseclass.class
+com\trip\testCases\TC_003_From_Naveen.class
+com\trip\pageObject\Loginpage.class
+com\trip\testCases\TC_002_LoginDD.class

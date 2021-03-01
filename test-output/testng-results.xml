@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="1DETTRIP" duration-ms="49011" started-at="2021-02-28T11:32:38Z" finished-at="2021-02-28T11:33:27Z">
+    <groups>
+    </groups>
+    <test name="TRIPApp Test" duration-ms="49011" started-at="2021-02-28T11:32:38Z" finished-at="2021-02-28T11:33:27Z">
+      <class name="com.trip.testCases.TC_001_LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.trip.testCases.TC_001_LoginTest@57fffcd7]" name="setUp" is-config="true" duration-ms="10252" started-at="2021-02-28T11:32:38Z" finished-at="2021-02-28T11:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.trip.testCases.TC_001_LoginTest@57fffcd7]" name="loginTest" duration-ms="2811" started-at="2021-02-28T11:32:48Z" finished-at="2021-02-28T11:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.trip.testCases.TC_001_LoginTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="920" started-at="2021-02-28T11:32:51Z" finished-at="2021-02-28T11:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trip.testCases.TC_001_LoginTest -->
+      <class name="com.trip.testCases.TC_002_LoginDD">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.trip.testCases.TC_002_LoginDD@31ef45e3]" name="setUp" is-config="true" duration-ms="8927" started-at="2021-02-28T11:32:52Z" finished-at="2021-02-28T11:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDataDriven()[pri:0, instance:com.trip.testCases.TC_002_LoginDD@31ef45e3]" name="loginDataDriven" duration-ms="24801" started-at="2021-02-28T11:33:01Z" finished-at="2021-02-28T11:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDriven -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.trip.testCases.TC_002_LoginDD@31ef45e3]" name="tearDown" is-config="true" duration-ms="872" started-at="2021-02-28T11:33:26Z" finished-at="2021-02-28T11:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trip.testCases.TC_002_LoginDD -->
+    </test> <!-- TRIPApp Test -->
+  </suite> <!-- 1DETTRIP -->
+</testng-results>

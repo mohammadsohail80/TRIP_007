@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="1DETTRIP">
+
+<listeners>
+		<listener class-name="com.trip.Utilities.Reporting" />
+	</listeners>
+
+
+	<test name="TRIPApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.trip.testCases.TC_001_LoginTest" />
+			
+		<!--  <class name="com.trip.testCases.TC_002_LoginDD" /> -->
+			
+			
+		</classes>
+
+	</test>
+
+</suite>
